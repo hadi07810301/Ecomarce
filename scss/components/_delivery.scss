@@ -1,0 +1,32 @@
+#delevery {
+    margin: 75px 0;
+    .del-main {
+        background: #E2F4FF;
+        border-radius: 20px;
+        padding: 44px 0;
+    }
+
+    .del_main {
+        .del_icon {
+            i {
+                font-size: 64px;
+                color: #EDA415;
+            }
+        }
+
+        .dlv_text {
+            margin-left: 31px;
+            h3 {
+                font-weight: 600;
+                font-size: 22.09px;
+                color: #003F62;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 18.09px;
+                color: #003F62;
+            }
+        }
+    }
+}

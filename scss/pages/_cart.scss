@@ -1,0 +1,146 @@
+#cart {
+    .cart_head {
+        background: #E2F4FF;
+        padding: 10px 35px;
+
+        h3 {
+            font-weight: 500;
+            font-size: 20.68px;
+            color: #232323;
+            display: inline-block;
+            padding-right: 150px;
+
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 20.68px;
+            color: #232323;
+            display: inline-block;
+            padding-left: 107px;
+        }
+    }
+
+    .cart_iteam {
+        border-bottom: 1px solid #C3C3C3;
+        padding: 26px 0;
+
+        .cart_img {
+            h2 {
+                font-weight: 600;
+                font-size: 20.68px;
+                color: #003F62;
+            }
+
+            h3 {
+                font-weight: 400;
+                font-size: 20.68px;
+                color: #2F2F2F;
+            }
+
+
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 22.68px;
+            color: #2F2F2F;
+        }
+
+        h5 {
+            font-weight: 500;
+            font-size: 22.68px;
+            color: #2F2F2F;
+        }
+
+        .cart_sub {
+            // margin-right: 52px;
+        }
+    }
+
+    .cart_btn {
+        padding: 40px 0 96px 0;
+
+        a {
+            padding: 20px 37px;
+            font-weight: 600;
+            font-size: 22.697px;
+            color: #797979;
+            border-radius: 32.4242px;
+            margin-right: 61px;
+            border: 1px solid #A9A9A9;
+
+            &:hover {
+                background: #EDA415;
+                color: white;
+            }
+        }
+    }
+
+    .tolal {
+        h4 {
+            font-weight: 500;
+            font-size: 20.68px;
+            color: #232323;
+            text-align: center;
+            padding: 10px 0;
+            background: #E2F4FF;
+     
+        }
+
+        h5 {
+            font-weight: 500;
+            font-size: 19.68px;
+            color: #232323;
+            padding-bottom: 20px;
+
+            span {
+                margin-left: 250px;
+            }
+
+            border-bottom: 1px solid #AFAFAF;
+        }
+
+        a {
+            font-weight: 400;
+            font-size: 16.68px;
+            color: #232323;
+            padding: 14px 23px;
+            border: 1px solid #DFDFDF;
+            border-radius: 20px;
+            display: block;
+            span {
+                padding-left: 165px;
+            }
+        }
+
+        .bsrd {
+            width: 100%;
+            height: 0px;
+            border: 1px solid #AFAFAF;
+            margin: 33px 0;
+
+        }
+
+        .last_btn {
+            padding-top: 27px;
+
+            a {
+                padding: 11px 62px;
+                background: #EDA415;
+                border-radius: 32.4242px;
+                text-align: center;
+            }
+        }
+
+        h6 {
+            font-weight: 400;
+            font-size: 16.68px;
+            color: #232323;
+            padding-top: 28px;
+            span {
+                padding-left: 250px;
+            }
+        }
+    }
+}

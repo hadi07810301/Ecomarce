@@ -1,0 +1,86 @@
+#slider {
+    padding-bottom: 123px;
+
+    .slick-dots {
+        position: absolute;
+        bottom: -73px;
+        left: 41%;
+
+        .slick-active {
+            background: #EDA415;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        li {
+            margin-left: 10px;
+
+            button {
+                background-color: transparent;
+                color: transparent;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+
+                border: 1px solid #ADADAD;
+
+            }
+        }
+    }
+
+    .slider_main {
+        margin-left: 20px;
+
+        .slider_iteam {
+            border: 1px solid #BABABA;
+            border-radius: 20px;
+            padding: 16px;
+
+            .slider_img_part {
+                h3 {
+                    font-weight: 500;
+                    font-size: 15.9785px;
+                    color: #003F62;
+                    padding-left: 37px;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 13.1707px;
+                color: #003F62;
+                padding: 11px 26px;
+                background: #E2F4FF;
+                border-radius: 18.695px;
+                margin-top: 26px;
+
+            }
+        }
+    }
+}
+
+
+// logo parrt start
+.logo_main {
+    background: #E2F4FF;
+    padding: 47px 32px;
+
+    .logo_iteam {
+        .logo_img {
+            img {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// logo parrt end

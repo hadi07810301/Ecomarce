@@ -1,0 +1,34 @@
+@media (max-width: 576px) {
+    #nav_head .nav_head_item .hader_input input {
+        display: none;
+    }
+    nav .nav_icon i {
+       display: none;
+    }
+    #banner .ban_head a {
+
+        padding: 18px 19px !important;
+    }
+    .bannar_cam  img {
+        margin-top: 60px
+    }
+    .slick_icon .left_icon {
+        left: -3px !important;
+    }
+    .slick_icon .right_icon {
+        right: -12px !important;
+    }
+    #product .prodict_manu ul li button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}

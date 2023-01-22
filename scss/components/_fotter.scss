@@ -1,0 +1,133 @@
+.foter_SUB {
+    span {
+        display: block;
+    }
+}
+
+#footer {
+    display: none;
+    background: #E2F4FF;
+    padding-top: 42px;
+
+    .foter_sub_main {
+        background-color: white;
+        padding: 38px 0px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 29.38px;
+            color: #1B5A7D;
+        }
+
+        .input_icon {
+            position: relative;
+
+            i {
+                position: absolute;
+                top: -45px;
+                right: 163px;
+                font-size: 24px;
+                color: white;
+            }
+        }
+
+        input {
+            width: 385px;
+            padding: 21px 10px;
+            background: #EDA415;
+            border-radius: 20px;
+            border: none;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #606060;
+        }
+
+        span {
+            font-weight: 600;
+            font-size: 14px;
+            color: #606060;
+        }
+
+        .foter_call {
+            i {
+                font-size: 44px;
+                color: #EDA415;
+                margin-right: 20px;
+            }
+
+        }
+    }
+
+    .foter_main {
+        padding-top: 31px;
+    }
+
+    .foter_item {
+        .foter-logo {
+
+            h2 {
+                font-weight: 400;
+                font-size: 16.38px;
+                color: #1B5A7D;
+                border-bottom: 1px solid #9D9D9D;
+                padding-bottom: 36px;
+                margin-bottom: 16px;
+                padding-top: 36px;
+            }
+        }
+    }
+
+    .foter_manu {
+        h4 {
+            font-weight: 600;
+            font-size: 19.38px;
+            color: #1B5A7D;
+        }
+
+        ul {
+            li {
+                display: block;
+                padding-bottom: 15px;
+
+                a {
+                    font-weight: 400;
+                    font-size: 19.38px;
+                    color: #1B5A7D;
+                    position: relative;
+                    transition: all linear 0.5s;
+                    -webkit-transition: all linear 0.5s;
+                    -moz-transition: all linear 0.5s;
+                    -ms-transition: all linear 0.5s;
+                    -o-transition: all linear 0.5s;
+
+                    &:hover {
+                        color: #87BCD9;
+                    }
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        height: 10px;
+                        width: 10px;
+                        background: #D9D9D9;
+                        top: 6px;
+                        left: -30px;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,210 @@
+.cart_manu {
+    h2 {
+        font-weight: 500;
+        font-size: 16.09px;
+        color: #003F62;
+
+        span {
+            padding-left: 180px;
+        }
+    }
+
+    .chack_text {
+        margin-left: 10px;
+        padding-top: 7px;
+
+        p {
+            font-weight: 400;
+            font-size: 16.09px;
+            color: #222222;
+        }
+
+        h5 {
+            font-weight: 400;
+            font-size: 16.09px;
+            color: #222222;
+
+        }
+    }
+
+    .form-check-input {
+        width: 30px;
+        height: 30px;
+        background: #B3D4E5;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .form-check-input:checked {
+        background-color: #3F3F3F;
+        border-color: none;
+    }
+
+    .form-check-input:focus {
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .line {
+        width: 314px;
+        height: 0px;
+        border: 1px solid #BDBDBD;
+        margin: 23px 0 13px 0;
+    }
+
+    .opacity {
+        opacity: 0.5;
+    }
+
+    .color {
+        .color-1 {
+            width: 15px;
+            height: 16px;
+            background: #EDA415;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-2 {
+            width: 15px;
+            height: 16px;
+            background: #E42424;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-3 {
+            width: 15px;
+            height: 16px;
+            background: #1B5A7D;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-4 {
+            width: 15px;
+            height: 16px;
+            background: #ACACAC;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-5 {
+            width: 15px;
+            height: 16px;
+            background: #1D5F23;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-6 {
+            width: 15px;
+            height: 16px;
+            background: #2E56A3;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-7 {
+            width: 15px;
+            height: 16px;
+            background: #8131A7;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-8 {
+            width: 15px;
+            height: 16px;
+            background: #BC2944;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .color-9 {
+            width: 15px;
+            height: 16px;
+            background: #9BC14C;
+            ;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+}
+
+#play {
+    .product-main {
+        margin-bottom: 50px;
+
+        .product-iteam {
+            padding: 22px 14px;
+            border: 0.983537px solid #B6B6B6;
+            border-radius: 19.6707px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+
+            &:hover {
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -ms-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+
+            .product-text {
+                h4 {
+                    font-weight: 500;
+                    font-size: 17.0939px;
+                    color: #003F62;
+                    padding-top: 2px;
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 17.0939px;
+                    color: #4A4A4A;
+                    padding: 14px 0;
+                }
+
+                .prd_icon {
+                    i {
+                        color: #ACACAC;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+    }
+}

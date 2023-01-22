@@ -1,0 +1,183 @@
+#banner {
+    padding-top: 66px;
+
+    .banner_head_slick {
+        position: relative;
+
+        .slick-dots {
+            position: absolute;
+            bottom: -78px;
+            left: 20%;
+
+            .slick-active {
+                background: #EDA415;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            li {
+                margin-left: 10px;
+
+                button {
+                    background-color: transparent;
+                    color: transparent;
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+
+                    border: 1px solid #ADADAD;
+
+                }
+            }
+        }
+    }
+
+    .ban_head {
+        padding: 20px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 43px;
+            color: #1B5A7D;
+            width: 100px;
+            padding-bottom: 37px;
+        }
+
+        a {
+            font-weight: 600;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 18px 32px;
+            background: #EDA415;
+            border-radius: 20px;
+            margin-right: 10px;
+
+        }
+
+
+
+    }
+
+
+    .bannar_cam {
+        position: relative;
+
+        .only {
+            position: absolute;
+            bottom: 60px;
+            right: 0px;
+            padding: 25px 36px;
+            background: #EDA415;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+
+            h3 {
+
+                font-style: normal;
+                font-weight: 600;
+                font-size: 21.573px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .banner_slick {
+        padding-top: 52px;
+        padding-bottom: 75px;
+
+        .banner_slick_main {
+            margin-left: 20px;
+
+            :hover img {
+                transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                -moz-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                -o-transform: scale(1.2);
+                transition: all ease-in-out 0.5s;
+                -webkit-transition: all ease-in-out 0.5s;
+                -moz-transition: all ease-in-out 0.5s;
+                -ms-transition: all ease-in-out 0.5s;
+                -o-transition: all ease-in-out 0.5s;
+            }
+        }
+
+        .banner_slick_iteam {
+            border: 1px solid #A5A5A5;
+            border-radius: 20px;
+            padding: 27px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+        .banner_slick_text {
+            h3 {
+                font-weight: 600;
+                font-size: 23.38px;
+                color: #1B5A7D;
+
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 18.8462px;
+                color: #265F7F;
+            }
+        }
+
+        .one {
+            padding: 40px 0;
+        }
+    }
+}
+
+.slick_icon {
+    position: relative;
+
+    .left_icon {
+        position: absolute;
+        top: 70px;
+        left: -16px;
+        z-index: 11;
+
+        i {
+            padding: 7px;
+            background-color: #EAEAEA;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            font-size: 24px;
+        }
+    }
+
+    .right_icon {
+        position: absolute;
+        right: -30px;
+        top: 70px;
+        font-size: 24px;
+        z-index: 11;
+
+        i {
+            padding: 7px;
+            background-color: #EAEAEA;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+    }
+}
